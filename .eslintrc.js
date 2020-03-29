@@ -17,6 +17,7 @@ module.exports = {
     "plugins": [
         "@typescript-eslint"
     ],
+    "ignorePatterns": ["node_modules/", "client/"],
     "rules": {
         "import/no-unresolved": "off",
         "import/extensions": "off",

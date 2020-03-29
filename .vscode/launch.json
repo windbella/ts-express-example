@@ -5,9 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Debug Client",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}\\client\\src",
+            "breakOnLoad": true,
+            "sourceMapPathOverrides": {
+                "webpack:///src/*": "${webRoot}\\*"
+            }
+        },
+        {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch Server",
             "skipFiles": [
                 "<node_internals>/**"
             ],
