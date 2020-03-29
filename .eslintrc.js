@@ -22,14 +22,7 @@ module.exports = {
         "import/extensions": "off",
         "linebreak-style": "off",
         "indent": ["error", 4],
-        // "object-property-newline": "off",
-        // "object-curly-newline": "off",
-        // "func-names": "off",
-        // "newline-per-chained-call": "off",
         "no-console": "off",
-        // "no-extend-native": "off",
-        // "no-lonely-if": "off",
-        // "@typescript-eslint/camelcase": "off",
         "@typescript-eslint/no-use-before-define": "off"
     }
 };
