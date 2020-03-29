@@ -1,0 +1,8 @@
+- ### express-generator로 생성된 기본 express 앱을 타입스크립트(typescript)로 전환한 프로젝트 + 뷰(vue)  
+  - express --view=ejs ts-express-example  
+  - vue create client (vue-class-componen는 선택하지 않음/eslint 미지원)
+  - vscode 기반으로 .vscode/launch.json에 디버깅 가능한 실행 설정 포함  
+  - www.ts(진입점)에 "#!/usr/bin/env node"가 있어야 디버깅이 원활하게 가능  
+  - ESLint, Debugger for Chrome 익스텐션 설치 추천  
+  - root와 client에 각각 package.json이 있으니 양쪽다 install 필요  
+  - client에서 build를 해야 서버에서 서비스할 파일들이 생성됨

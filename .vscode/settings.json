@@ -1,0 +1,7 @@
+{
+    "eslint.workingDirectories": [".", "./client"],
+    "eslint.validate": [
+        "vue",
+        "typescript"
+    ]
+}
