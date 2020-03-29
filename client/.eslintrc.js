@@ -12,7 +12,8 @@ module.exports = {
         ecmaVersion: 2020,
     },
     rules: {
-        indent: ['error', 4],
+        "linebreak-style": "off",
+        'indent': ['error', 4],
         'vue/html-indent': ['error', 4],
         'vue/script-indent': ['error', 4],
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
