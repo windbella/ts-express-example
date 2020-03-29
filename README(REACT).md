@@ -5,4 +5,5 @@
   - www.ts(진입점)에 "#!/usr/bin/env node"가 있어야 디버깅이 원활하게 가능  
   - ESLint, Debugger for Chrome 익스텐션 설치 추천  
   - root와 client에 각각 package.json이 있으니 양쪽다 install 필요  
-  - client에서 build를 해야 서버에서 서비스할 파일들이 생성됨
+  - client에서 build를 해야 서버에서 서비스할 파일들이 생성됨  
+  - root에 위치한 package.json의 eslint-config-airbnb와 plugin들은 필요하지 않지만 intelliJ eslint 플러그인이 버그가 있기 때문에 추가했습니다.
