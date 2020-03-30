@@ -22,11 +22,9 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\bin\\www.ts",
-			"runtimeArgs": ["-r", "ts-node/register"],
-            "outFiles": [
-                "${workspaceFolder}/**/*.js"
-            ]
+            "program": "${workspaceFolder}\\server\\bin\\www.ts",
+            "cwd": "${workspaceFolder}\\server",
+            "runtimeArgs": ["-r", "ts-node/register"]
         }
     ]
 }
