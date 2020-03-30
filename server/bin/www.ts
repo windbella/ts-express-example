@@ -8,7 +8,7 @@ import Debug from 'debug';
 import http from 'http';
 import { AddressInfo } from 'net';
 import { HttpError } from 'http-errors';
-import app from '../app';
+import app from '../src/app';
 
 const debug: Debug.Debugger = Debug('ts-express:server');
 
